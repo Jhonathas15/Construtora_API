@@ -6,7 +6,7 @@ urlpatterns = [
     # admin
     path('admin/', admin.site.urls),
     # authentication
-    path('api/v1/', include('authentication.urls')),
+    path('api/stage/v1/', include('authentication.urls')),
     # card
-    path('api/v1/', include('card.urls')),
+    path('api/stage/v1/', include('card.urls')),
 ]
